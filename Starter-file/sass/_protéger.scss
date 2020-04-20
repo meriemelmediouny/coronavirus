@@ -1,0 +1,50 @@
+.protéger{
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.protég__title{
+    text-align: center;
+    font-size: 20px;
+    color: #0071aa;
+    padding-top: 15px;
+}
+.sect1__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 13px;
+    grid-row-gap: 15px;
+    padding-top: 25px;
+}
+.img1{
+    width: 60%;
+    height: 75%;
+    padding-left: 45%;
+    padding-top: 35px;
+}
+.p1{
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    color: #1078AD;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 15px;
+    list-style: outside;
+    padding-left: 10px;
+}
+.home{
+    text-align: center;
+}
+.home__img{ 
+    width: 90px;
+    height: 100px;
+    margin-top: 50px;
+}
+.home__discription{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #0071aa;
+    line-height: 33px;
+}
