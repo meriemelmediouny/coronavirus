@@ -6,6 +6,8 @@ body{
 h2{
     color: #8C723D;
     border: 2px solid ;
+    border-radius: 41px 41px 41px 41px;
+    box-shadow: 4px 16px 5px -9px rgba(230,156,99,1);
     text-align: center;
     font-family: Georgia, serif;
     font-size: 2em;
@@ -14,4 +16,6 @@ h2{
 
 h4{
     color: chocolate;
+    padding-left: 25px;
+
 }
