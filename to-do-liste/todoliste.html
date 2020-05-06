@@ -1,54 +1,26 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="todoliste.js" defer></script>
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>To_Do_List</title>
     <link rel="stylesheet" href="todoliste.css">
 </head>
 <body>
-    <section class="container">
-  
-        <h1>To-Do liste</h1>
-        
-        <div class="new-task-container box">
-        
-        <label for="new-task">Add New Task</label>
-        <input type="text" id="new-task">
-          <button id="addTask">Add Task</button>
-        
-        </div>
-        
-        <div class="todo-list box">
-        
-          <h2>Incomplete Tasks</h2>
-          <ul>
-            <li><input type="checkbox"><label>Shopping</lable></li>
-            <li><input type="checkbox"><label>Go to school</lable></li>
-            <li><input type="checkbox"><label>Sport</lable></li>
-          </ul>
-        
-        </div><!--/todo-list-->
-        
-        <div class="complete-list box">
-          
-          <h2>Completed Tasks</h2>
-          <ul>
-            <li>Go to super market <button class="delete">Delete</button></li>
-      
-          </ul>
-          
-          
-        </div><!--/complete-list-->
-        
-        
-        
-        
-        
-      </section><!--/container-->
-    <script>
-    alert("welcome to your liste");
-</script>
+    <div id="myDIV" class="header">
+        <h2 style="margin:5px">My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+      <ul id="myUL">
+        <li>Hit the gym</li>
+        <li class="checked">Pay bills</li>
+        <li>Meet George</li>
+        <li>Buy eggs</li>
+        <li>Read a book</li>
+        <li>Organize office</li>
+      </ul>
+      <script type="text/javascript" src="todoliste.js"></script>
 </body>
 </html>
