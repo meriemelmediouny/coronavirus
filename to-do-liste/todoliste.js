@@ -16,7 +16,8 @@ for (i = 0; i < close.length; i++) {
       if(confirm("voulez-vous vraiment supprimer?"))
           {
             var div = this.parentElement;
-            div.style.display = "none";      
+            div.style.display = "none"; 
+                 
           }
     }
 }
