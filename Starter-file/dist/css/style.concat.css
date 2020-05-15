@@ -1,3 +1,24 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 2px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(16, 121, 173, 0.5); 
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1A519E; 
+}
 /* .footer {
   text-align: center;
   margin-top: 2em; }
@@ -405,7 +426,7 @@
   margin-top: 1em; }
   .launch__button {
     text-decoration: none;
-    color: white;
+    /* color: white; */
     font-weight: 700;
     border: 1px solid #1078ad;
     padding: 0.5em;
@@ -413,11 +434,13 @@
     font-size: 1.2em;
     width: 60%;
     max-width: 600px;
-    background: url(/Starter-file/dist/img/demarrer.png);
+    background: url(../img/demarrer.png);
     margin: 1em auto;
     width: 50%;
     max-width: 500px;
-    cursor: pointer; }
+    cursor: pointer;
+    
+   }
 
 .progress {
   display: flex;
@@ -440,7 +463,8 @@
   display: none; }
   .questions h3 {
     color: #7f7f7f;
-    margin-bottom: 3em; }
+    margin-bottom: 3em;
+  text-align: center; }
   .questions__form {
     text-align: center;
     display: flex;
@@ -495,7 +519,7 @@
     font-size: 1.2em;
     width: 60%;
     max-width: 600px;
-    background: url(/Starter-file/dist/img/demarrer.png);
+    background: url(../img/demarrer.png);
     margin: 1em auto;
     width: 40%;
     margin-top: 3em;
@@ -541,7 +565,7 @@
       line-height: 1.5em; }
   .resultat__reprendre {
     text-decoration: none;
-    color: white;
+    background-color: white;
     font-weight: 700;
     border: 1px solid #1078ad;
     padding: 0.5em;
@@ -549,11 +573,42 @@
     font-size: 1.2em;
     width: 60%;
     max-width: 600px;
-    background: url(/Starter-file/dist/img/demarrer.png);
+     background: url(../img/demarrer.png); 
     margin: 1em auto;
     width: 50%;
     max-width: 500px;
     cursor: pointer; }
+    .general2 {
+      margin: 40px 175px; }
+    
+    .general2-title {
+      text-align: center;
+      color: #2086b9;
+      font-size: 25px;
+      margin-top: 85px; }
+    
+    .general2-containr {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 13px;
+      text-align: center; }
+      .general2-containr p {
+        font-size: 23px;
+        color: #1078AD;
+        font-weight: bold; }
+    
+    .imageA {
+      margin-top: 59px;
+      width: 143px;
+      height: 150px;
+      padding-left: 20px; }
+    
+    .imageB {
+      margin-top: 59px;
+      width: 155px;
+      height: 150px; }
+
 
 
 
@@ -864,14 +919,13 @@ body {
   .infor #a {
     text-decoration: none; }
   .infor button {
-    color: white;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 0.75em;
     width: 15em;
     border: none;
-    background-image: url(/Starter-file/dist/img/Merged_bar-5.png);
+    background-image: url(../dist/img/demarrer.png);
     background-position: center;
     font-size: 18px; }
     .infor button a {
